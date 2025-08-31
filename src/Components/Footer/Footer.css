@@ -1,0 +1,133 @@
+.footer{
+    width:100vw;
+    height:50vh;
+    background: #002ea0;
+    color:white;
+    
+    
+}
+
+.footer-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2rem;
+}
+
+.fa-laptop-footer{
+    display:flex;
+    font-size:var(--text-h4-size);
+    position:relative;
+    top:1rem;
+}
+
+.footer .card{
+   height:14rem;
+   border:3px solid transparent;
+   
+}
+.footer .card h4{
+    position:relative;
+    top:1rem;
+    text-align:center;
+}
+
+.footer .card p{
+    width:100%;
+    padding-top:1.5rem;
+    font-size:1rem;
+      
+}
+
+.footer-links li{
+    display: block;
+    margin:1.4rem auto;
+    position:relative;
+    left:4rem;
+
+}
+
+
+.footer-links-feature li{
+    display: block;
+    margin:1.4rem auto;
+    position:relative;
+    left:7rem;
+    transition:all 400ms ease;
+}
+
+.footer-links-feature li:hover{
+    color:yellow;
+    text-decoration: underline;
+    font-size:1.1rem
+}
+
+
+.footer .copyright{
+    text-align:center;
+    position:relative;
+    top:1.5rem;
+}
+
+
+@media(max-width:1200px){
+    .footer{
+        height:80vh;
+    }
+    .footer-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-links li{
+        position:relative;
+        left:10rem;
+    }
+    .footer-links-feature li{
+        position:relative;
+        left:10rem;
+    }
+}
+
+
+@media(max-width:1000px){
+    .footer-links li{
+        position:relative;
+        left:6rem;
+    }
+    .footer-links-feature li{
+        position:relative;
+        left:8rem;
+    }
+}
+
+
+@media(max-width:800px){
+    .footer-links li{
+        position:relative;
+        left:4rem;
+    }
+    .footer-links-feature li{
+        position:relative;
+        left:6rem;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .footer{
+        height:180vh;
+    }
+    .footer-wrapper{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .footer-links li{
+        position:relative;
+        left:8.5rem;
+    }
+    .footer-links-feature li{
+        position:relative;
+        left:12rem;
+    }
+    
+}

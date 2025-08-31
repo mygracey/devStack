@@ -1,0 +1,63 @@
+.hero{
+    width:100vw;
+    height:100vh;
+    padding-top:5rem;
+    background:linear-gradient(rgba(0,0,58,0.5),rgba(0,0,58,0.5)), url("../../assets/studentlaptop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero-text h1{
+    text-align:center;
+    margin:4px auto 1rem;
+    font-size:var(--text-h1-size);
+    text-shadow: 0 0 2px gray;
+}
+
+.hero-text p{
+    width:43.25rem;
+    font-size:1.2rem;
+    text-align:center;
+    text-shadow: 0 0 2px gray;
+}
+
+#hero-btn{
+    position:relative;
+    left:50%;
+    top:2.5rem;
+    transform: translate(-50%,-50%);
+}
+
+
+
+@media(max-width:900px){
+    .hero-text h1{
+        font-size: var(--text-h2-size);
+    }
+
+    .hero-text p{
+        font-size: 1rem;
+        max-width:600px;
+        margin:auto;
+    }
+
+}
+
+@media(max-width:800px){
+    
+    .hero-text h1{
+        font-size: var(--text-h3-size);
+    }
+
+    .hero-text p{
+        font-size: 1rem;
+        max-width:320px;
+        margin:auto;
+    }
+
+}
