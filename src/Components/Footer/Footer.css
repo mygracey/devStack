@@ -132,11 +132,12 @@
 
     .footer-links li{
         position:relative;
-        left:8.5rem;
+        left:6.5rem;
     }
+    
     .footer-links-feature li{
         position:relative;
-        left:12rem;
+        left:8.5rem;
     }
     
 }
