@@ -10,6 +10,7 @@
     display:flex;
     justify-content: center;
     align-items:center;
+    overflow-x: hidden;
 }
 
 .hero-text h1{
@@ -36,6 +37,9 @@
 
 
 @media(max-width:900px){
+    .hero{
+        overflow-x: hidden;
+    }
     .hero-text h1{
         font-size: var(--text-h2-size);
     }
@@ -49,9 +53,49 @@
 }
 
 @media(max-width:800px){
+    .hero{
+        overflow-x: hidden;
+    }
     
     .hero-text h1{
         font-size: var(--text-h3-size);
+    }
+
+    .hero-text p{
+        font-size: 1rem;
+        max-width:320px;
+        margin:auto;
+    }
+
+}
+
+
+
+@media(max-width:600px){
+    .hero{
+        overflow-x: hidden;
+    }
+    
+    .hero-text h1{
+        font-size: var(--text-h4-size);
+    }
+
+    .hero-text p{
+        font-size: 1rem;
+        max-width:320px;
+        margin:auto;
+    }
+
+}
+
+
+
+@media(max-width:400px){
+    .hero{
+        overflow-x: hidden;
+    }
+    .hero-text h1{
+        font-size: var(--text-h4-size);
     }
 
     .hero-text p{

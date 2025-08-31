@@ -16,7 +16,7 @@ function About(){
                     all corners of Africa with our knowledge and skill
                      by planting our branches in those countries on the
                       African Continent. Our goal isn't just limited to the African 
-                    soil but to become a global brand in the nearst future. </p>
+                    soil but to become a global brand in the nearest future. </p>
                 </div>
 
                 <div className="col">

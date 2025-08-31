@@ -3,6 +3,7 @@
     height:50vh;
     background: #002ea0;
     color:white;
+    overflow-x: hidden;
     
     
 }
@@ -72,6 +73,7 @@
 @media(max-width:1200px){
     .footer{
         height:80vh;
+        overflow-x: hidden;
     }
     .footer-wrapper{
         grid-template-columns: 1fr 1fr;
@@ -88,6 +90,9 @@
 
 
 @media(max-width:1000px){
+    .footer{
+        overflow-x: hidden;
+    }
     .footer-links li{
         position:relative;
         left:6rem;
@@ -100,6 +105,9 @@
 
 
 @media(max-width:800px){
+    .footer{
+        overflow-x:hidden;
+    }
     .footer-links li{
         position:relative;
         left:4rem;
@@ -115,6 +123,7 @@
 @media(max-width:600px){
     .footer{
         height:180vh;
+        overflow-x: hidden;
     }
     .footer-wrapper{
         grid-template-columns: 1fr;

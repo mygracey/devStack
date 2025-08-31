@@ -2,6 +2,7 @@
     width:100vw;
     height:100vh;
     background:whitesmoke;
+    overflow-x: hidden;
 }
 
 .about-grid{
@@ -37,6 +38,9 @@
 
 
 @media(max-width:1200px){
+    .about{
+        overflow-x: hidden;
+    }
    
     .about-grid .col h1{
         font-size:var(--text-h3-size);
@@ -58,6 +62,7 @@
 @media(max-width:600px){
     .about{
         height:200vh;
+        overflow-x: hidden;
     }
     .about-grid{
         grid-template-columns: 1fr;
@@ -69,6 +74,60 @@
     }
     .about-grid .col p{
         font-size:1.1rem;
+    }
+
+    .about-grid .col{
+        margin:auto;
+    }
+    
+
+}
+
+
+
+
+
+@media(max-width:400px){
+    .about{
+        height:200vh;
+        overflow-x: hidden;
+    }
+    .about-grid{
+        grid-template-columns: 1fr;
+    }
+   
+    .about-grid .col h1{
+        font-size:var(--text-h4-size);
+        
+    }
+    .about-grid .col p{
+        font-size:1rem;
+    }
+
+    .about-grid .col{
+        margin:auto;
+    }
+    
+
+}
+
+
+
+@media(max-width:375px){
+    .about{
+        height:200vh;
+        overflow-x: hidden;
+    }
+    .about-grid{
+        grid-template-columns: 1fr;
+    }
+   
+    .about-grid .col h1{
+        font-size:var(--text-h4-size);
+        
+    }
+    .about-grid .col p{
+        font-size:1rem;
     }
 
     .about-grid .col{

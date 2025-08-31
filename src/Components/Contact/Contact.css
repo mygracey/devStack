@@ -3,6 +3,7 @@
     height:100vh;
     background:transparent;
     padding-top:3rem;
+    overflow-x: hidden;
 }
 
 .contact h2{
@@ -85,6 +86,52 @@
 @media(max-width:1200px){
     .contact{
         height:160vh;
+        overflow-x: hidden;
+    }
+    .contact .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media(max-width:800px){
+    .contact{
+        height:160vh;
+        overflow-x: hidden;
+    }
+    .contact .contact-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact-grid h3{
+        font-size:0.9rem;
+    }
+    .contact-grid .col .contact-info li{
+        font-size:1rem;
+    }
+    .contact-grid .col .contact-info .icon{
+        font-size:1rem;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .contact{
+        height:160vh;
+        overflow-x: hidden;
+    }
+    .contact .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media(max-width:400px){
+    .contact{
+        height:160vh;
+        overflow-x: hidden;
     }
     .contact .contact-grid{
         grid-template-columns: 1fr;
