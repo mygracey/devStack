@@ -34,7 +34,7 @@ function Navbar(){
                     <h3>DevStack</h3>
                 </div>
             </div>
-            <ul className={menuBar ? '':'show-nav-menu'}>
+            <ul className={menuBar ? 'show-nav-menu':''}>
                 <li><Link to="hero" smooth={true} offset={0} duration={500}>Home</Link></li>
                 <li><Link to="about" smooth={true} offset={-30} duration={500}>About</Link></li>
                 <li><Link to="programs" smooth={true} offset={-100} duration={500}>Programs</Link></li>
